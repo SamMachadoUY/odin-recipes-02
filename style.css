@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+    
+
+   
+    /**
+    align-items: center;
+    justify-content: center;
+    **/
+    background-color: rgb(248, 218, 248); 
+}
+.header img{
+    height: 300px;
+    width: 300px;
+}
+
+
+
+
+h1{
+   font-size: 46px;
+}
+
+
+
+.continer{
+    margin-bottom: 400px;
+    width: auto;
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+img{
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+/**
+.header h1{  
+    padding: 10px;
+    font-size: 46px; 
+    position: absolute;
+    display: flex;
+}
+
+.header img{
+    height: 200px;
+    width: 500px;
+ 
+}
+**/
+
+.img-nice-try-mom img{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    
+}
+.background{
+    background-color: antiquewhite;
+    /**background-image: url(../odin-recipes/img/peakpx.jpg);**/
+}
+
+a{
+    text-decoration: none;
+    font-size: 36px;
+    color:rgb(1, 146, 122);
+}
+
+.continer h2{
+    margin: 10px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+
+.continer img{
+    margin-left: 50px;
+}
+
